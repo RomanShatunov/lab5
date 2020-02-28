@@ -8,11 +8,9 @@ function pulloutArray(arr) {
             if (typeof arr[i][j] === 'number' && !isNaN(arr[i][j]) && arr[i][j] !== null) {
               resultArr.push(arr[i][j]);
             }
-            // console.log(arr[i][j]);
           }
         } else if (typeof arr[i] === 'number' && !isNaN(arr[i]) && arr[i] !== null) {
           resultArr.push(arr[i]);
-          // console.log(arr[i]);
         }
       }
     } else {

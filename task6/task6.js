@@ -4,7 +4,7 @@ function replaceString (receivedStr, sourseStr, replaceStr) {
         return receivedStr;
     }
     else {
-        return false;
+        return false; 
     }
 }
 console.log(replaceString('davaiprivet', 'ip','poka'))

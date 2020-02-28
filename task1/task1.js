@@ -12,7 +12,7 @@ var catVasiliy = {
         console.log('run from here!!!!')
       }
       else if (this.listOfPositive.indexOf(feeling) > -1) {
-          console.log('Mrrr!')
+        console.log('Mrrr!')
       }
     },
   };
